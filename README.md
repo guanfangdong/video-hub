@@ -1,5 +1,23 @@
 # Video Hub 项目技术架构文档 v3.0
 
+# 作者自述：
+
+周末在家闲来无事用Claude和Gemini再配合上作者纸上谈兵的指挥做的一个小应用。
+因为主播喜欢收集影片，突然想到，要是能把自己的影片变成那种youtube那种应用就爽了。
+所以搞了这个东西。
+用的话先安装Node.js/npm和Tailwind CSS。这个Tailwind CSS得安装v3的。v4会报错。
+然后安装python的包，看一下section2安装。
+然后直接简单粗暴`python run.py`。
+
+之后你应该能看到这个画面
+
+<img width="3488" height="1012" alt="屏幕截图 2025-08-24 113257" src="https://github.com/user-attachments/assets/5f5d3f55-1c69-453d-bc08-045dab68b46f" />
+
+最后你就按照它的要求，加上path就好，要处理一会儿因为需要先截图更新数据库什么的。还有别的功能自己试试就好。
+
+有什么好的想法或者bug可以提issue。也欢迎merge你的版本！
+
+
 ## 1. 项目概述 (Project Overview)
 
 Video Hub 是一个本地视频文件管理和浏览的 Web 应用程序。它旨在解决用户在本地磁盘上存储了大量视频文件，但难以快速预览和组织的问题。
