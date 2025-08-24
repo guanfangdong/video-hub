@@ -1,0 +1,15 @@
+{
+  "name": "video-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "build-css": "tailwindcss -i ./frontend/static/css/input.css -o ./frontend/static/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
