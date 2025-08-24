@@ -1,4 +1,4 @@
-# Video Hub 项目技术架构文档 v3.0
+# Video Hub （自己电脑上的Youtube）项目技术架构文档 v3.0
 
 # 作者自述：
 
