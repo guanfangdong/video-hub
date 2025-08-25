@@ -343,7 +343,7 @@ Python 3, JavaScript (ES6+)
 
 ### 分层图片存储系统 **[重大改进]**
 * **路径映射**: 
-  * `V:\尤娜酱\video.mp4` → `generated_images/v/尤娜酱/video_hash.jpg`
+  * `V:\..\video.mp4` → `generated_images/v/../video_hash.jpg`
   * `C:\Users\Videos\movie.mp4` → `generated_images/c/users/videos/movie_hash.jpg`
 * **冲突避免**: 使用文件路径哈希确保同名文件不冲突
 * **自动文件夹创建**: 根据需要自动创建目录结构
